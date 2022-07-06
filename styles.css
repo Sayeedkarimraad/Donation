@@ -1,0 +1,36 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.intro {
+    text-align: center;
+    height: 55vh;
+    padding: 60px 200px 30px 200px;
+    background-image: url(images/children.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.link-button {
+    padding: 18px 25px;
+    text-decoration: none;
+    background-image: linear-gradient(blue, purple);
+    color: azure;
+    border-radius: 10px;
+    font-weight: 900px;
+    font-size: 19px;
+
+}
+
+#main-content {
+    padding: 0 40px 25px 40px;
+    font-size: 19px;
+}
