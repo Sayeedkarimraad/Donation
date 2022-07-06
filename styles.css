@@ -8,29 +8,70 @@ h1 {
     font-weight: bolder;
 }
 
-.intro {
+.introduction {
     text-align: center;
-    height: 55vh;
+    height: 65vh;
     padding: 60px 200px 30px 200px;
     background-image: url(images/children.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    border: 5px solid rgb(255, 0, 212);
 
 }
 
-.link-button {
-    padding: 18px 25px;
+.main-content {
+    padding: 10px 40px 20px 40px;
+    font-size: 20px;
+    border: 5px solid orange;
+}
+
+#link-button {
+    padding: 10px 20px;
     text-decoration: none;
-    background-image: linear-gradient(blue, purple);
+    background-color: rgb(226, 199, 46);
     color: azure;
     border-radius: 10px;
-    font-weight: 900px;
-    font-size: 19px;
+    font-size: 22px;
+
 
 }
 
-#main-content {
-    padding: 0 40px 25px 40px;
-    font-size: 19px;
+
+
+.donation {
+    text-align: center;
+    height: 50vh;
+    padding: 60px 200px 30px 200px;
+    border: 6px solid red;
+
+}
+
+.box-content {
+    display: flex;
+    border: 5px solid blue;
+    width: 50%;
+    margin: 0 300px 40px 370px;
+}
+
+.money {
+    padding: 5px 20px;
+    margin: 2px 10px;
+    background-color: rgb(247, 245, 243);
+    color: rgb(84, 85, 87);
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid green;
+
+}
+
+input {
+    width: 650px;
+    height: 28px;
+    color: rgb(136, 149, 202);
+    background-color: rgb(247, 245, 243);
+    border-color: inherit;
+    box-shadow: none;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
