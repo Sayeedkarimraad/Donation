@@ -4,26 +4,40 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 85px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .introduction {
     text-align: center;
-    height: 65vh;
+    height: 74vh;
     padding: 60px 200px 30px 200px;
     background-image: url(images/children.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    border: 5px solid rgb(255, 0, 212);
 
 }
 
 .main-content {
     padding: 10px 40px 20px 40px;
     font-size: 20px;
-    border: 5px solid orange;
+
+}
+
+.describtion {
+    padding: 0 180px 0 180px;
+    margin-top: -40px;
 }
 
 #link-button {
@@ -33,6 +47,7 @@ h1 {
     color: azure;
     border-radius: 10px;
     font-size: 22px;
+    margin-top: 120px;
 
 
 }
@@ -41,37 +56,78 @@ h1 {
 
 .donation {
     text-align: center;
-    height: 50vh;
-    padding: 60px 200px 30px 200px;
-    border: 6px solid red;
+    height: 70vh;
+    padding: 30px 200px 30px 200px;
 
 }
 
 .box-content {
     display: flex;
-    border: 5px solid blue;
-    width: 50%;
-    margin: 0 300px 40px 370px;
+    margin: 40px auto 40px auto;
+    padding: 0 405px 0 440px;
+
 }
 
 .money {
     padding: 5px 20px;
     margin: 2px 10px;
     background-color: rgb(247, 245, 243);
-    color: rgb(84, 85, 87);
-    font-weight: bold;
-    font-size: 20px;
-    border: 5px solid green;
+    color: rgb(149, 151, 155);
+    font-weight: bolder;
+    font-size: 22px;
+
 
 }
 
 input {
-    width: 650px;
+    width: 300px;
     height: 28px;
-    color: rgb(136, 149, 202);
+    color: rgb(149, 151, 155);
     background-color: rgb(247, 245, 243);
-    border-color: inherit;
+    border-color: burlywood;
     box-shadow: none;
+    outline: none;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#second {
+    border: 2px solid green;
+    color: orange;
+}
+
+.plan {
+
+    text-align: center;
+    padding: 0 80px 0 80px;
+    height: 90vh;
+}
+
+.extra-information {
+    display: flex;
+    width: 1400px;
+    height: 300px;
+    margin: 20px auto 160px auto;
+    padding: 30px 40px 100px 40px;
+
+}
+
+.part {
+    margin: 20px 20px -30px 20px;
+    padding: 30px 20px 130px 20px;
+    text-align: left;
+
+}
+
+#food {
+    background-color: rgba(200, 250, 215, 0.692);
+}
+
+#shelter {
+    background-color: rgba(219, 208, 205, 0.582);
+}
+
+#education {
+    background-color: rgba(160, 160, 226, 0.219);
 }
