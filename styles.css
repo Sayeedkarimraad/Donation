@@ -20,7 +20,7 @@ h3 {
 
 .introduction {
     text-align: center;
-    height: 74vh;
+    height: 70vh;
     padding: 60px 200px 30px 200px;
     background-image: url(images/children.png);
     background-repeat: no-repeat;
@@ -84,16 +84,17 @@ input {
     height: 28px;
     color: rgb(149, 151, 155);
     background-color: rgb(247, 245, 243);
-    border-color: burlywood;
+    border-color: aliceblue;
     box-shadow: none;
     outline: none;
     font-size: 18px;
     margin-bottom: 50px;
     margin-top: 40px;
+    box-sizing: initial;
 }
 
 #second {
-    border: 2px solid green;
+    border: 2px solid rgb(137, 199, 137);
     color: orange;
 }
 
@@ -129,7 +130,7 @@ input {
 }
 
 #education {
-    background-color: rgba(160, 160, 226, 0.219);
+    background-color: rgba(160, 160, 226, 0.397);
 }
 
 footer {
@@ -150,4 +151,52 @@ footer {
 .note {
     margin-bottom: 20px;
     margin-top: -20px;
+}
+
+.email {
+    height: 70vh;
+}
+
+.email-box {
+    margin: 350px auto 100px auto;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 800px;
+    background-color: rgba(255, 241, 221, 0.712);
+
+}
+
+.input {
+
+    margin: 72px auto 30px 120px;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+}
+
+#submit {
+    margin-left: 2px;
+    height: 49px;
+    width: 170px;
+    background-color: tomato;
+    color: aliceblue;
+    border-style: none;
+}
+
+.updates {
+    text-align: center;
+    margin: 90px auto -280px auto;
+    padding: 20px auto;
+    width: 1300px;
+}
+
+.homeless {
+    display: flex;
+    font-size: 20px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding: 100px 100px 100px 100px;
 }
