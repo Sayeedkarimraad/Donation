@@ -131,3 +131,23 @@ input {
 #education {
     background-color: rgba(160, 160, 226, 0.219);
 }
+
+footer {
+    height: 150px;
+    text-align: center;
+    padding: 30px auto 60px auto;
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    font-size: 45px;
+    font-family: 'The Nautigal', cursive;
+    padding-top: 20px;
+    color: rgb(101, 101, 240);
+}
+
+.note {
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
